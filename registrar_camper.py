@@ -20,3 +20,5 @@ def registrar_usuario(datos):
         print("guardado con exito")
 
     print(datos)
+    
+    #medio
