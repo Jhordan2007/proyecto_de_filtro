@@ -1,0 +1,17 @@
+{
+    "estudiantes": {
+        "1097495965": {
+            "nombres": "andres camilo",
+            "apellidos": "asd",
+            "Direcci\u00f2n": "calle 15c #13 a 27",
+            "Edad": 23,
+            "acudiente": "asf",
+            "celular": "3184354262",
+            "telefono fijo": 23,
+            "Estado": "cursando",
+            "riesgo": false,
+            "Direccion": "asd",
+            "Celular": "243"
+        }
+    }
+}
