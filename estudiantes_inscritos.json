@@ -3,35 +3,35 @@
         "123": {
             "nombres": "Adrian",
             "apellidos": "Ramirez",
-            "Direcci\u00f2n": "calle 15c #13 a 27",
+            "Direccion": "calle 15c #13 a 27",
             "Edad": 18,
             "acudiente": "Juana",
             "celular": "987654321",
             "telefono fijo": "726543",
             "Inscrito": true,
             "riesgo": false
+        },
+        "124": {
+            "nombres": "sdfsd",
+            "Apellidos": "sdf",
+            "direccion": "sdf",
+            "Edad": "23",
+            "Acudiente": "sdf",
+            "celular": "23",
+            "telefono": "23",
+            "Inscrito": true,
+            "riesgo": false
+        },
+        "1234": {
+            "nombres": "kasdjk",
+            "Apellidos": "sdkjf",
+            "direccion": "df",
+            "Edad": "34",
+            "Acudiente": "sdf",
+            "celular": "34",
+            "telefono": "23",
+            "Inscrito": true,
+            "riesgo": false
         }
-    },
-    "124": {
-        "nombres": "sdfsd",
-        "Apellidos": "sdf",
-        "direccion": "sdf",
-        "Edad": "23",
-        "Acudiente": "sdf",
-        "celular": "23",
-        "telefono": "23",
-        "Inscrito": false,
-        "riesgo": false
-    },
-    "1234": {
-        "nombres": "kasdjk",
-        "Apellidos": "sdkjf",
-        "direccion": "df",
-        "Edad": "34",
-        "Acudiente": "sdf",
-        "celular": "34",
-        "telefono": "23",
-        "Inscrito": false,
-        "riesgo": false
     }
 }

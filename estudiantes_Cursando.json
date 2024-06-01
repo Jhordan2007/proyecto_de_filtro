@@ -1,17 +1,41 @@
 {
-    "estudiantes": {
-        "1097495965": {
-            "nombres": "andres camilo",
-            "apellidos": "asd",
-            "Direcci\u00f2n": "calle 15c #13 a 27",
-            "Edad": 23,
-            "acudiente": "asf",
-            "celular": "3184354262",
-            "telefono fijo": 23,
-            "Estado": "cursando",
+    "usuarios": {
+        "123": {
+            "nombres": "Adrian",
+            "apellidos": "Ramirez",
+            "Direccion": "calle 15c #13 a 27",
+            "Edad": 18,
+            "acudiente": "Juana",
+            "celular": "987654321",
+            "telefono fijo": "726543",
+            "Inscrito": true,
             "riesgo": false,
-            "Direccion": "asd",
-            "Celular": "2243"
+            "nota": 40,
+            "aprobo": "NO APROBO"
+        },
+        "124": {
+            "nombres": "sdfsd",
+            "Apellidos": "sdf",
+            "direccion": "sdf",
+            "Edad": "23",
+            "Acudiente": "sdf",
+            "celular": "23",
+            "telefono": "23",
+            "Inscrito": true,
+            "riesgo": false,
+            "nota": 70
+        },
+        "1234": {
+            "nombres": "kasdjk",
+            "Apellidos": "sdkjf",
+            "direccion": "df",
+            "Edad": "34",
+            "Acudiente": "sdf",
+            "celular": "34",
+            "telefono": "23",
+            "Inscrito": true,
+            "riesgo": false,
+            "nota": 95
         }
     }
 }
