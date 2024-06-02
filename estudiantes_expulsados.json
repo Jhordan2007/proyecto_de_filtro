@@ -1,24 +1,28 @@
 {
-    "4444":{
-        "nombres": "eff",
+    "3456": {
+        "nombres": "JUANITO",
         "Apellidos": "f",
         "direccion": "f",
-        "Edad": "f",
+        "Edad": 456,
         "Acudiente": "",
         "celular": "ff",
         "telefono": "",
         "estado": "inscrito",
         "riesgo": false,
         "nota": 0,
-        "aprobo": "NOAPROBO"
- }
-
-
-
-
-
-
-
-
-
+        "aprobo": "goku"
+    },
+    "5678": {
+        "nombres": "gg",
+        "Apellidos": "g",
+        "direccion": "g",
+        "Edad": "g",
+        "Acudiente": "g",
+        "celular": "g",
+        "telefono": "g",
+        "estado": "inscrito",
+        "riesgo": false,
+        "nota": 0,
+        "aprobo": "goku"
+    }
 }

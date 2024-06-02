@@ -1,6 +1,10 @@
 from registrar_camper import *
 from datos import *
 from coordinador_config import *
+from camper_config import *
+
+RUTA_DATOS_ESTUDIANTESEXP = "estudiantes_expulsados.json"
+datos_estudiantes_expulsados = cargar_datos(RUTA_DATOS_ESTUDIANTESEXP)
 
 RUTA_DATOS_ESTUDIANTESINSC = "estudiantes_inscritos.json"
 datos_estudiantes_inscritos = cargar_datos(RUTA_DATOS_ESTUDIANTESINSC)
@@ -27,27 +31,20 @@ while True:
     print("3. Ingresar como trainer")
     print("4. ingresar como coordinador")
     print("5. Usuarios")
+    print("0. salir")
     print("----------------------------------------------------------------")
     opc = int(input("Ingrese la opciòn que deseas--> "))
     if opc == 1:
-        registrar_usuario(datos_estudiantes_inscritos)
+      registrar_usuario(datos_estudiantes_inscritos)
+      guardar_datos(datos_estudiantes_inscritos, RUTA_DATOS_ESTUDIANTESINSC)
     elif opc == 2:
-      print("soy opcion2")
+      menu_camper()
+    elif opc == 3:
+      print("soy opcion3")  
     elif opc == 4:
        menu_coordinador()
     elif opc == 0:
        break    
 
-
-
-
-
-
-
-
-
-    guardar_datos(datos_estudiantes_inscritos, RUTA_DATOS_ESTUDIANTESINSC)
-    guardar_datos(datos_estudiantes_Cursando,RUTA_DATOS_ESTUDIANTESCURS)
-    guardar_datos(datos_de_ruta,RUTA_DATOS_RUTA)
-    guardar_datos(datos_trainers,RUTA_DATOS_TRAINERS)
+    
     #medio

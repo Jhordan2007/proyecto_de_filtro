@@ -9,7 +9,7 @@ def cargar_datos(archivo):
 def guardar_datos(datos, archivo):
     datos = dict(datos)
     diccionario=json.dumps(datos, indent=4)
-    file=open(archivo,"w")
+    file=open(archivo,"w")  
     file.write(diccionario)
     file.close()
     #medio
