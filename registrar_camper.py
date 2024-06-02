@@ -13,7 +13,7 @@ def registrar_usuario(datos):
         Usuario["Acudiente"] = input("ingrese su acudiente: ")
         Usuario["celular"] = input("ingrese su celular: ")
         Usuario["telefono"] = input("ingrese su telefono: ")
-        Usuario["estado"] = ("inscrito")
+        Usuario["estado"] = False
         Usuario["riesgo"] = False
         datos[doc]=Usuario
 

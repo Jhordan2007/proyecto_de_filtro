@@ -1,41 +1,54 @@
 {
-    "usuarios": {
-        "123": {
-            "nombres": "Adrian",
-            "apellidos": "Ramirez",
-            "Direccion": "calle 15c #13 a 27",
-            "Edad": 18,
-            "acudiente": "Juana",
-            "celular": "987654321",
-            "telefono fijo": "726543",
-            "Inscrito": true,
-            "riesgo": false,
-            "nota": 40,
-            "aprobo": "NO APROBO"
-        },
-        "124": {
-            "nombres": "sdfsd",
-            "Apellidos": "sdf",
-            "direccion": "sdf",
-            "Edad": "23",
-            "Acudiente": "sdf",
-            "celular": "23",
-            "telefono": "23",
-            "Inscrito": true,
-            "riesgo": false,
-            "nota": 70
-        },
-        "1234": {
-            "nombres": "kasdjk",
-            "Apellidos": "sdkjf",
-            "direccion": "df",
-            "Edad": "34",
-            "Acudiente": "sdf",
-            "celular": "34",
-            "telefono": "23",
-            "Inscrito": true,
-            "riesgo": false,
-            "nota": 95
-        }
+    "3456": {
+        "nombres": "eff",
+        "Apellidos": "f",
+        "direccion": "f",
+        "Edad": "f",
+        "Acudiente": "",
+        "celular": "ff",
+        "telefono": "",
+        "estado": "inscrito",
+        "riesgo": false,
+        "nota": 0,
+        "aprobo": "NO APROBO"
+    },
+    "5678": {
+        "nombres": "gg",
+        "Apellidos": "g",
+        "direccion": "g",
+        "Edad": "g",
+        "Acudiente": "g",
+        "celular": "g",
+        "telefono": "g",
+        "estado": "inscrito",
+        "riesgo": false,
+        "nota": 0,
+        "aprobo": "NO APROBO"
+    },
+    "4532": {
+        "nombres": "ff",
+        "Apellidos": "f",
+        "direccion": "f",
+        "Edad": "fg",
+        "Acudiente": "g",
+        "celular": "g",
+        "telefono": "g",
+        "estado": true,
+        "riesgo": false,
+        "nota": 0,
+        "aprobo": "APROBO"
+    },
+    "777": {
+        "nombres": "e",
+        "Apellidos": "",
+        "direccion": "e",
+        "Edad": "e",
+        "Acudiente": "e",
+        "celular": "e",
+        "telefono": "e",
+        "estado": true,
+        "riesgo": false,
+        "nota": 0,
+        "aprobo": "APROBO"
     }
 }

@@ -16,12 +16,11 @@ datos_trainers= cargar_datos(RUTA_DATOS_TRAINERS)
 def Aprobo_o_no(datos_estudiantes_cursando):
     print(datos_estudiantes_cursando)
     doc= input("Ingrese el numero del documento del usuario")
-    if doc in datos_estudiantes_cursando["usuarios"]:
+    if doc in datos_estudiantes_cursando:
         print("usuario encontrado")
-        print(datos_estudiantes_cursando["usuarios"][doc]["nota"])
-    datos_estudiantes_cursando["usuarios"][doc]["aprobo"]=input("Ingresa si aprobo o no aprobo")
+        print(datos_estudiantes_cursando[doc]["nota"])
+    datos_estudiantes_cursando[doc]["aprobo"]=input("Ingresa si aprobo o no aprobo")
     guardar_datos(datos_estudiantes_cursando,RUTA_DATOS_ESTUDIANTESCURS)
-
 def agregar_trainer(datos_trainers):
     Trainers={}
     Trainer= input("Ingrese el nombre del trainer")
@@ -43,20 +42,16 @@ def agregar_ruta(datos):
         guardar_datos(datos,RUTA_DATOS_RUTA)
     print(datos)
 
-
-
 def usuario_pendiente(datos_estudiantes_inscritos):
     print(datos_estudiantes_inscritos)
     doc= input("Ingrese el numero del documento del usuario")
-    if doc in datos_estudiantes_inscritos["usuarios"]:
+    if doc in datos_estudiantes_inscritos:
         print("usuario encontrado")
-        datos_estudiantes_inscritos["usuarios"][doc]["Inscrito"]=True
+        datos_estudiantes_inscritos[doc]["estado"]=True
         print("aceptado")
         guardar_datos(datos_estudiantes_inscritos,RUTA_DATOS_ESTUDIANTESINSC) 
-    if datos_estudiantes_inscritos["usuarios"][doc]["Inscrito"]==True:
+    if datos_estudiantes_inscritos[doc]["estado"]==True:
         guardar_datos(datos_estudiantes_inscritos,RUTA_DATOS_ESTUDIANTESCURS)
-    
-   
 
 def editar_usuarios(datos_estudiantes_Cursando):
     doc= input("Ingrese su numero de documento: ")
